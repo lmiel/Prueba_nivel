@@ -28,9 +28,7 @@ def catalogar(vehiculos):
             print(f"Clase: {vehiculo.__class__.__name__}")
             for atributo, valor in vehiculo.__dict__.items():
                 print(f"{atributo}: {valor}")
-            print()
-
-catalogar(vehiculos)
+            
     
 
 
