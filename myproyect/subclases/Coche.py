@@ -7,4 +7,4 @@ class Coche(Vehiculo):
         self.cilindrada = cilindrada
     
     def __str__(self):
-        return super().__str__() + + ", {} km/h, {}cc".format(self.velocidad, self.cilindrada)
+        return super().__str__() + ", {} km/h, {}cc".format(self.velocidad, self.cilindrada)

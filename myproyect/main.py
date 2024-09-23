@@ -5,5 +5,5 @@ from subsubclases.Camioneta import Camioneta
 import lanzador
 
 if __name__ == "__main__":
-    vehiculos = []  # o la definición correcta de vehiculos
-    lanzador.catalogar(vehiculos)
+    vehiculos = [] 
+    lanzador.catalogar(lanzador.vehiculos)
